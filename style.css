@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+h1{
+    font-size: 50px;
+    font-family: Comic Sans MS;
+    
+}
+nav.menu{
+    text-align: right;
+    position: relative;
+    top: 1rem;
+
+}
+[href="#"]{
+    background-color: #5faf3b;
+    color: white;
+    font-family: Comic Sans MS;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px 20px;
+    text-align: center;
+    display: inline-table;
+    margin-bottom: 4px;
+
+}
+[href="./about.html"]{
+    background-color: #186baa;
+    color: white;
+    font-family: Comic Sans MS;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px 20px;
+    text-align: center;
+    display: inline-table;
+    margin-bottom: 4px;
+
+}
+[href="./contact.html"]{
+    background-color: #186baa;
+    color: white;
+    font-family: Comic Sans MS;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px 20px;
+    text-align: center;
+    display: inline-table;
+    margin-bottom: 4px;
+
+}
+#banner{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.upcoming{
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: 900;
+    border-style: solid;
+    border-width: 1px;
+    object-fit: cover;
+}
+
+.section{
+    padding-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+    
+}
+.fechas {
+    width: 60%;
+    margin: 0 auto;
+}
+.date{
+    font-family: Comic Sans MS;
+    font-style: oblique;
+    flex: 1;
+}
+.events{
+    padding: 0px 50px;
+    font-family: Comic Sans MS;
+    font-style: normal;
+    flex: 1;
+}
+
+
+/*PAGINA ABOUT*/
+
+#about{
+    background-color: #5faf3b;
+    color: white;
+    font-family: Comic Sans MS;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px 20px;
+    text-align: center;
+    display: inline-table;
+    margin-bottom: 4px;
+}
+#home{
+    background-color: #186baa;
+    color: white;
+    font-family: Comic Sans MS;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px 20px;
+    text-align: center;
+    display: inline-table;
+    margin-bottom: 4px;
+
+}
+#contact{
+    background-color: #186baa;
+    color: white;
+    font-family: Comic Sans MS;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px 20px;
+    text-align: center;
+    display: inline-table;
+    margin-bottom: 4px;
+
+}
+.about{
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: 900;
+    border-style: solid;
+    border-width: 1px;
+    object-fit: cover;
+}
+.nosotros{
+    font-family: Comic Sans MS;
+    font-style: oblique;
+    text-align: left;
+
+}
+.texto{
+    padding: 10px;
+    font-family: Comic Sans MS;
+    font-style: normal;
+    text-align:inherit; 
+
+}
+
+.centrar {
+    width: 60%;
+    margin: 0 auto; 
+  }
+.contenedor {
+    padding-bottom: 20px;
+    display: flex; 
+    align-items: center;
+   
+  }
+.logo{
+    height: 100px;
+    width: 90px;
+    margin-right: 40px; 
+}
+article {
+    flex: 1;
+  }
+
+
+  /*PAGINA CONTACT*/
+
+.contact{
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: 900;
+    border-style: solid;
+    border-width: 1px;
+    object-fit: cover;
+}
+.mail{
+    width: 60%;
+    margin: 0 auto; 
+}
+footer{
+    padding-bottom: 20px;
+    display: flex; 
+    line-height: 2;
+    align-items: start;
+}
+.medio{
+    padding: 10px;
+    font-family: Comic Sans MS;
+    font-style: normal;
+    text-align:inherit; 
+}
+
