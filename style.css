@@ -12,11 +12,13 @@ h1{
     
 }
 nav.menu{
-    text-align: right;
-    position: relative;
-    top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
 
 }
+
 [href="#"]{
     background-color: #5faf3b;
     color: white;
@@ -61,7 +63,6 @@ nav.menu{
     height: 240px;
     object-fit: cover;
     object-position: center;
-
 }
 .upcoming{
     text-align: center;
@@ -204,3 +205,140 @@ footer{
     text-align:inherit; 
 }
 
+/*PAGINA GAME_INFO*/
+.games2{
+    background-color: #d7faef;
+}
+#ofplay{
+    background-color: #186baa;
+    color: white;
+    font-family: Comic Sans MS;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px 20px;
+    text-align: center;
+    display: inline-table;
+    margin-bottom: 4px;
+}
+.logo2:hover{
+    transform: scale(2,2);
+}
+.titulo{
+    text-align: center;
+}
+.games{
+    text-decoration: underline;
+}
+table {
+    height: 70vh;
+    width: 60rem;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 5px solid;
+    text-align: center;
+    border-color: #ecd609;
+    font-size: 20px;
+}
+.SEPTEMBER{
+    background-color: rgb(153, 152, 153);
+}
+.Teams{
+    background-color: rgb(156, 243, 243);
+}
+.Location{
+    background-color: rgb(153, 152, 153);
+}
+.Times{
+    background-color: rgb(156, 243, 243);
+}
+.negro{
+    line-height: 3;
+}
+.phone{
+    text-align: left;
+    margin: 0;
+}
+.email{
+    text-align: right;
+    margin: 10px;
+}
+
+/*PAGINA RULES*/
+.rules2{
+    background-image: url(./assets/LogoMightyDucks.png);
+    background-position: top center;
+    backdrop-filter: blur(3px);
+    background-color: #a2eed6; 
+    font-family: url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&family=Libre+Baskerville&family=Playfair+Display&display=swap');
+    color: #646464;
+    font-weight: bolder;
+}
+#informacion{
+    background-color: #186baa;
+    color: white;
+    font-family: Comic Sans MS;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 3px 20px;
+    text-align: center;
+    display: inline-table;
+    margin-bottom: 4px;
+}
+.titulo1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.ihf{
+    text-align: center;
+    font-family: Playfair;
+    color: black;
+}
+.sport2{
+    text-indent: 1em;
+    text-align: left;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: auto;
+}
+.policies{
+    margin-left: 40px;
+}
+li{
+    list-style-position: inside;
+    flex-direction: row;
+    font-size: 20px;
+    
+}
+ol{
+    list-style-type: decimal;
+    margin-top: 10px;
+    margin-left: auto;
+}
+.extras{
+    list-style-type: lower-alpha;
+    margin-top: 0;
+}
+
+ul > li{
+    list-style-type: circle;
+    margin-top: 0;
+}
+li::marker{
+    color: #2718aa;
+    font-size: 1.2em
+}
+.sport{
+    margin: 10px;
+    margin-left: auto;
+}
+.all{
+    text-indent: 1em;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+}
