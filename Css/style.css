@@ -6,6 +6,9 @@
 img {
     max-width: 100%;
 }
+body{
+    background-color: #a2eed6;
+}
 h1{
     font-size: 50px;
     font-family: Comic Sans MS;
@@ -65,6 +68,7 @@ nav.menu{
     object-position: center;
 }
 .upcoming{
+    background-color: white;
     text-align: center;
     font-family: Comic Sans MS;
     font-weight: 900;
@@ -137,6 +141,7 @@ nav.menu{
 
 }
 .about{
+    background-color: white;
     text-align: center;
     font-family: Comic Sans MS;
     font-weight: 900;
@@ -181,6 +186,7 @@ article {
   /*PAGINA CONTACT*/
 
 .contact{
+    background-color: white;
     text-align: center;
     font-family: Comic Sans MS;
     font-weight: 900;
@@ -207,7 +213,7 @@ footer{
 
 /*PAGINA GAME_INFO*/
 .games2{
-    background-color: #d7faef;
+    background-color: #a2eed6;
 }
 #ofplay{
     background-color: #186baa;
@@ -268,7 +274,7 @@ table, th, td {
 
 /*PAGINA RULES*/
 .rules2{
-    background-image: url(./assets/LogoMightyDucks.png);
+    background-image: url(..//assets/LogoMightyDucks.png);
     background-position: top center;
     backdrop-filter: blur(3px);
     background-color: #a2eed6; 
@@ -346,7 +352,7 @@ li::marker{
 /*PAGINA REGISTRO*/
 
 .formulario{
-    background-color: rgb(222, 250, 158);
+    background-color: #a2eed6;
 }
 .form{
     display: flex;
